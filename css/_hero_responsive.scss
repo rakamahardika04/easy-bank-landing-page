@@ -1,0 +1,133 @@
+@media screen and (min-width: 1327px){
+    .hero-section {
+        
+        .hero-column-left {
+            padding-left: calc(100% - (100% * (0.90)));
+            padding-right: 5%;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1326px){
+    .hero-section {
+        
+        .hero-column-left {
+            padding-left: calc(100% - (100% * (0.90)));
+            padding-right: 5%;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .hero-section {
+
+        .hero-headline{
+            font-size: 49px;
+        }
+
+        .hero-img-mobile img {
+            margin-top: -18%;
+            margin-left: 5%;
+            width: 700px;
+        }
+
+        .hero-img-pattern img {
+            margin-top: -45%;
+            margin-left: -12%;
+        }
+
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .hero-section {
+        
+        .hero-column-left {
+            padding-left: calc(100% - (100% * (0.97)))
+        }
+
+    }
+}
+
+@media screen and (max-width: 992px) {	
+	.hero-section {
+
+        .hero-img-mobile{
+            height: 100%;
+        }
+        
+        .hero-img-mobile img {
+            margin-top: -0%;
+            margin-left: 0%;
+            height: 100%;
+            width: auto;
+        }
+
+    }
+}
+
+@media (max-width: 767px){
+	.hero-section {
+
+        height: auto;
+
+        .hero{
+            flex-direction: column-reverse;
+        }
+
+        .hero-column-left{
+            width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .hero-headline {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .hero-subheadline {
+            text-align: center;
+            padding-left: 12px;
+            padding-right: 12px;
+            margin-bottom: 30px;
+        }
+
+        .hero-column-right{
+            width: 100%;
+        }
+
+        .hero-column-left {
+            align-items: center;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+        .hero-img-pattern {
+            height: 298px;
+            position: static;
+        }
+
+        .hero-img-pattern img {
+            margin-top: -47px;
+            margin-left: unset;
+            width: 100%;
+        }
+
+        .hero-image-mobile {
+            height: auto;
+        }
+
+        .hero-img-mobile img {
+            margin-top: -122px;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            width: 341px;
+        }
+
+    }
+}

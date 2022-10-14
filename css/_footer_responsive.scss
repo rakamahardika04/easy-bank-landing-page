@@ -1,0 +1,62 @@
+@media (max-width: 768px){
+	.footer-section{
+        
+        height: auto;
+
+
+        .footer{
+           flex-direction: column;
+           padding-top: 32px;
+           padding-bottom: 32px;
+        }
+
+        .footer-column-left {
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+        }
+
+        .footer-logo-sosmed {
+            align-items: center;
+            height: auto;
+            margin-bottom: 32px;
+        }
+
+        .footer-logo {
+            margin-bottom: 32px;
+        }
+
+        .footer-menu-desktop {
+            align-items: center;
+            height: auto;
+        }
+
+        .footer-menu-desktop:not(:last-child) {
+            margin-bottom: 16px;
+        }
+
+        .footer-menu-desktop:last-child {
+            margin-bottom: 32px;
+        }
+
+        .footer-menu-item:not(:last-child) {
+            margin-bottom: 16px;
+        }
+
+        .footer-column-right {
+            width: 100%;
+            height: auto;
+            align-items: center;
+        }
+
+        .footer-btn {
+            justify-content: unset;
+            margin-bottom: 32px;
+        }
+
+        .footer-copyright {
+            align-self: unset;
+        }
+
+    }
+}

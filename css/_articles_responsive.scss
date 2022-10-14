@@ -1,0 +1,68 @@
+// TABLET SCREEN
+@media (max-width: 992px){
+	.articles-section{
+        height: auto;
+
+        .articles {
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .articles-headline {
+            text-align: center;
+        }
+
+        .articles-column-right{
+            flex-wrap: wrap;
+        }
+
+        .article-content{
+            flex-direction: row;
+            width: 100%;
+        }
+
+        .article-content:not(:last-child) {
+            margin-bottom: 40px;
+        }
+
+        .article-content-img{
+            margin-bottom: unset;
+            border-radius: 5px 0 0 5px;
+            width: 240px;
+        }
+
+    }
+}
+
+// SMALL SCREEN
+@media (max-width: 576px){
+	.articles-section{
+
+        .articles-headline {
+            font-size: 32px;
+        }
+
+        .article-content{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .article-content:nth-child(-n+2) {
+            margin-bottom: 0px;
+        }
+
+        .article-content:not(:last-child) {
+            margin-bottom: 40px;
+        }
+
+        .article-content-img {
+            border-radius: 5px 5px 0 0;
+            width: 100%;
+        }
+
+        .article-content-headline {
+            font-size: 18px;
+        }
+
+    }
+}

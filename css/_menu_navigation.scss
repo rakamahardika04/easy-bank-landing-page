@@ -1,0 +1,57 @@
+@media screen and (max-width: 768px){
+
+    .scroll-disable {
+        overflow: hidden;
+        position: relative;
+
+    }
+
+    .overlay {
+        position: fixed;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 81px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(180deg, rgba(45,49,77,0.3897934173669467) 78%, rgba(255,255,255,0) 100%);
+        z-index: 2;
+      }
+
+
+    header {
+
+        #nav-menu-mobile-id {
+            display: none;
+            position: absolute;
+            z-index: 3;
+            top: 100px;
+            right: 0;
+            left: 0;
+            width: 100%;
+            height: 240px;
+        }
+
+        
+
+        .nav-menu-mobile {
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 5px;
+            width: 90%;
+            height: 100%;
+
+            .nav-menu-link {
+                color: $darkBlue;
+            }
+        }
+
+    }
+
+}

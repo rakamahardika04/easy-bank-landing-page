@@ -1,0 +1,77 @@
+.footer-section {
+    display: flex;
+    justify-content: center;
+    background: $darkBlue;
+    height: 170px;
+
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer-column-left {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        height: 100px;
+    }
+
+    .footer-logo-sosmed {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .footer-sosmed {
+        display: flex;
+    }
+
+    .footer-sosmed-item:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .footer-menu-desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .footer-menu-link{
+        color: $lightGrayishBlue;
+        font-size: 16px;
+    }
+
+    .footer-menu-link:hover {
+        color: $limeGreen;
+        opacity: 0.5;
+    }
+    
+    .footer-sosmed-img:hover {
+        filter: invert(67%) sepia(57%) saturate(593%) hue-rotate(80deg) brightness(150%) contrast(89%);
+    }
+
+    .footer-column-right {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 50%;
+        height: 100px;
+    }
+
+    .footer-btn{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footer-copyright {
+        display: flex;
+        align-self: end;
+        color: $grayishBlue;
+        font-size: 16px;
+    }
+
+}

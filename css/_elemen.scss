@@ -1,0 +1,19 @@
+.btn-easy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 150px;
+    padding: 12px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, hsla(136, 65%, 51%, 1) 12%, hsla(192, 70%, 51%, 1) 88%);
+}
+
+.btn-easy:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+.btn-easy-link {
+    color: white;
+}

@@ -1,0 +1,55 @@
+@media screen and (min-width: 1327px){
+    header {
+        
+        .nav-menu-desktop {
+            display: flex;
+        }
+
+        .nav-btn{
+            display: block;
+        }
+
+        .nav-hamburger-icon {
+            display: none;
+        }
+
+    }
+}
+
+// SMALL SCREEN 
+@media screen and (max-width: 1326px){
+    header {
+        
+        .nav-menu-desktop {
+            display: flex;
+        }
+
+        .nav-btn{
+            display: block;
+        }
+
+        .nav-hamburger-icon {
+            display: none;
+        }
+
+    }
+}
+
+// EXTRA SMALL SCREEN
+@media screen and (max-width: 768px){
+	header {
+
+        .nav-menu-desktop {
+            display: none;
+        }
+
+        .nav-btn{
+            display: none;
+        }
+
+        .nav-hamburger-icon {
+            display: block;
+        }
+
+    }
+}
